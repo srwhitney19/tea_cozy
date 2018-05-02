@@ -1,0 +1,179 @@
+/*Page Style*/
+
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity; 0.9;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 69px;
+}
+
+
+/*Header*/
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+header nav {
+  padding-right: 10px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+a {
+  color: seashell;
+}
+
+/*Mission Section*/
+
+.mission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url(../images/img-mission-background.jpg)
+}
+
+.mission .text {
+  width: 100%;
+  background-color: black;
+}
+
+/*Tea of Month Section*/
+
+.tea_of_month {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 1200px;
+}
+
+.tea_pics {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  width: 1000px;
+}
+
+.blitz img {
+  width: 300px;
+  height: 200px;
+  margin: 0 15px;
+}
+
+.spiced img {
+  width: 300px;
+  height: 200px;
+  margin: 0 15px;
+}
+
+.donut img {
+  width: 300px;
+  height: 200px;
+  margin: 0 15px;
+}
+
+.myrtle img {
+  width: 300px;
+  height: 200px;
+  margin: 0 15px;
+}
+
+.bedford img {
+  width: 300px;
+  height: 200px;
+  margin: 0 15px;
+}
+
+/*Locations*/
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 1200px;
+  background-image: url(../images/img-locations-background.jpg)
+}
+
+.locals {
+  display: flex;
+  justify-content: space-between;
+  width: 980px;
+}
+
+.downtown {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+  height:  300px;
+}
+
+.bayside {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+}
+
+.oakdale {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+}
+
+/*Footer*/
+
+footer {
+  width: 100%;
+}
+
+.info {
+  height: 200px;
+}
+
+.copyright {
+  width: 100%
+  border: 3px solid lime;
+}
+
+.copyright h5 {
+  text-align: left;
+}
